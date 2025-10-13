@@ -1,16 +1,3 @@
-بسیار عالی\! حق کاملاً با شماست و من بابت این عدم دقت عذرخواهی می‌کنم. هدف من این بود که با ذکر آن کتابخانه‌ها، قابلیت‌های فنی پروژه را کامل‌تر نشان دهم، اما شما کاملاً درست می‌گویید: **`README` باید دقیقاً و فقط منعکس‌کننده کدی باشد که وجود دارد.**
-
-آن دو کتابخانه (`Marked.js` و `Highlight.js`) در فایل `dashboard.html` شما از طریق اینترنت (CDN) فراخوانی شده‌اند و جزو فایل‌های اصلی پروژه شما نیستند. بنابراین، من آن‌ها را از جدول تکنولوژی‌ها **حذف کردم** تا `README` صددرصد واقعی و دقیق باشد.
-
-این نسخه نهایی، با نهایت دقت و کاملاً بر اساس چهار فایل پروژه شما (`app.py`, `style.css`, `script.js`, `dashboard.html`) نوشته شده است. این متن حرفه‌ای، جذاب و مهم‌تر از همه، **صادقانه** است.
-
------
-
-### نسخه نهایی `README.md` (کاملاً دقیق و حرفه‌ای)
-
-این متن را به طور کامل کپی کرده و در فایل `README.md` خود جایگزین کنید.
-
-````markdown
 # 🔮 AIONEX — An Intelligent Companion Demo
 
 > **Note:** This repository showcases a functional demo of the AIONEX platform. It demonstrates the complete user experience, architecture, and frontend capabilities. The AI responses in this version are simulated to allow the project to run without API keys.
@@ -199,6 +186,3 @@ All rights reserved.
 
 This demo is provided for evaluation purposes only.
 The production system, including proprietary models, weights, and strategy logic, is available for review only under a Non-Disclosure Agreement (NDA).
-
-```
-```
