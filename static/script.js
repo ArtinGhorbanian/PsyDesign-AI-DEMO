@@ -564,4 +564,5 @@ document.addEventListener('DOMContentLoaded', () => {
     sidebarOverlay.addEventListener('click', toggleSidebar);
     sidebarCloseBtn.addEventListener('click', toggleSidebar);
     newDesignBtn.addEventListener('click', showInputScreen);
+
 });
