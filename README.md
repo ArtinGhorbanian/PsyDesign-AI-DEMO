@@ -1,188 +1,205 @@
-# 🔮 AIONEX — An Intelligent Companion Demo
+خواهش می‌کنم. فایل README شما همین الان هم بسیار حرفه‌ای و کامل است. من تغییراتی که درخواست کردید را اعمال می‌کنم تا به طور شفاف مشخص شود که این یک نسخه دمو (Demo) است و بخش‌های مربوط به API Key را به‌روزرسانی می‌کنم.
 
-> **Note:** This repository showcases a functional demo of the AIONEX platform. It demonstrates the complete user experience, architecture, and frontend capabilities. The AI responses in this version are simulated to allow the project to run without API keys.
-
-<p align="center">
-<img src="static/AIONEX.jpg" alt="AIONEX Logo" width="160"/>
-</p>
-
-<p align="center">
-<em>
-An advanced AI-powered chat platform designed to foster a deeper, more personal connection between humans and machines. AIONEX is more than just a chatbot; it's a suite of intelligent companions with unique personalities, designed to remember conversations and grow with you over time.
-</em>
-</p>
-
-<p align="center">
-<a href="#-key-features">Features</a> •
-<a href="#-technology-stack">Technology Stack</a> •
-<a href="#️-how-it-works">How It Works</a> •
-<a href="#-quickstart-guide">Quickstart</a> •
-<a href="#-accessing-the-full-production-system">Access Full Project</a> •
-<a href="#-license--intellectual-property">License</a>
-</p>
+در اینجا نسخه بهبودیافته و ویرایش‌شده‌ی `README.md` شما آماده است:
 
 -----
 
-![AIONEX Demo GIF](placeholder_for_a_gif.gif)
+# 🎨 PsyDesign AI — AI-Powered Brand Identity Generator
 
-<p align="center">
-This project redefines the AI chat experience by introducing dynamic personas, long-term memory, and intelligent interactive tools. This fully interactive demo showcases how a robust backend and a polished user interface can create a meaningful and highly personalized relationship with an AI.
-</p>
+\<p align="center"\>
+\<img src="static/AIONEX.jpg" alt="PsyDesign AI Logo" width="160"/\>
+\</p\>
+
+\<p align="center"\>
+\<em\>
+An intelligent design partner that translates a simple idea into a complete, psychology-driven brand identity. PsyDesign AI combines the power of brand strategy with generative AI to craft everything from a brand's core personality to its visual identity in seconds.
+\</em\>
+\</p\>
+
+\<p align="center"\>
+\<a href="\#-key-features"\>Features\</a\> •
+\<a href="\#-technology-stack"\>Technology Stack\</a\> •
+\<a href="\#-architecture--data-flow"\>Architecture\</a\> •
+\<a href="\#-demo-version-notice"\>Demo Notice\</a\> •
+\<a href="\#-project-setup-guide"\>Setup Guide\</a\> •
+\<a href="\#-license"\>License\</a\>
+\</p\>
+
+-----
+
+\<p align="center"\>
+From a single sentence, PsyDesign AI generates a comprehensive brand report, a unique logo with DALL-E 3, and an interactive brand persona powered by GPT-4o. This project demonstrates an end-to-end solution for automated brand creation, built on a high-performance FastAPI backend and a dynamic, responsive frontend.
+\</p\>
 
 -----
 
 ## 🚀 Key Features
 
-This demo fully implements the core features of the AIONEX experience:
+PsyDesign AI provides a complete, automated branding pipeline with the following features:
 
-### 🎭 Five Unique Personas
-Connect with five distinct AI companions, each with their own personality, tone, and style of conversation:
-* **Aura (The Mindful Guide):** Calm, empathetic, and insightful.
-* **Zane (The Tech Innovator):** Sharp, logical, and futuristic.
-* **Lyra (The Creative Storyteller):** Whimsical, imaginative, and artistic.
-* **Rex (The Energetic Coach):** Motivating, bold, and a bit cheeky.
-* **Nova (The Cosmic Explorer):** Curious, adventurous, and full of wonder.
+### 🧠 AI-Powered Brand Strategy Report
 
------
+The platform leverages **GPT-4o** to generate a comprehensive **Brand Psychology Report** from a single user prompt. This report includes:
 
-### 🧠 A Connection That Remembers
-* **Long-Term Memory:** The system extracts and saves key facts about you from conversations to create more natural interactions. (In this demo, this is simulated to show the feature's UI).
-* **Shared Memories:** The platform generates short, sentimental "shared memories," creating a beautiful timeline of your connection.
-* **Full Memory Control:** Through the settings panel, you have complete control to view and delete any fact the AI has remembered about you.
+  * **Brand Personality:** Defines the brand's archetype (e.g., The Hero, The Sage), tone of voice, and core values.
+  * **Visual Identity:** Suggests a live font pairing from Google Fonts, ready for web use.
+  * **Creative Assets:** Proposes multiple unique brand names and memorable slogans.
+  * **Narrative:** Crafts a compelling brand story and a ready-to-use social media bio.
+  * **Targeting:** Creates a detailed target audience persona with interests, demographics, and pain points.
+  * **Marketing Idea:** An initial, creative marketing campaign concept to kickstart strategy.
 
 -----
 
-### 💬 Advanced Conversation Tools
-* **Real-Time Streaming Responses:** AI responses are streamed token-by-token from the backend, creating the feeling of a live, dynamic conversation.
-* **On-Demand Summarization:** Instantly get a bullet-point summary of the key topics discussed in your current chat.
-* **Conversation Mood Analysis:** With a single click, the AI analyzes the overall mood of your conversation and provides a concise explanation.
-* **Text-to-Speech (TTS) Ready:** The interface includes controls for TTS. (In the full version, this is powered by advanced TTS models).
+### ✨ Instant Logo Generation with DALL-E 3
+
+  * **Contextual Visuals:** The system uses the `logo_concept_description` from the GPT-4o report to generate a highly relevant and detailed prompt for **DALL-E 3**.
+  * **High-Quality Output:** Generates HD quality (1024x1024) logos that are minimalist, iconic, and versatile.
+  * **Integrated Download:** Users can download the generated logo directly from the UI, facilitated by a secure image proxy endpoint.
 
 -----
 
-### ✨ Immersive & Personalized UX
-* **Dynamic Theming:** The UI and background change dynamically to match the personality of the selected AI companion.
-* **Multi-Language Support:** The entire UI instantly switches between six languages: **English, Spanish, French, Arabic, Chinese, and Hindi**.
-* **Daily Check-ins:** The AI greets you with a warm, personalized message on your first chat of the day.
-* **Modern UI:** A sleek design featuring smooth animations, a dark mode, and a custom cursor for a polished experience.
+### 💬 Interactive Brand Persona
+
+  * **Chat with Your Brand:** After generation, users can interact with a GPT-4o powered AI persona that fully embodies the new brand's tone and personality.
+  * **Context-Aware & Safe:** The persona is instructed to only answer questions related to the generated brand identity and politely decline any off-topic queries.
+  * **Text-to-Speech:** Users can listen to the brand persona's responses, powered by OpenAI's **TTS-1-HD** model for high-fidelity audio.
+
+-----
+
+### 🌐 Robust & Scalable Platform
+
+  * **Multi-Language Support:** The entire interface and all AI-generated content can be produced in **English, Spanish, French, Arabic, Chinese, and Hindi**.
+  * **Persistent History:** All generated brand identities, including their reports and logos, are saved to a database via **SQLAlchemy ORM** and can be revisited, compared, or deleted.
+  * **Modern & Responsive UI:** A clean, intuitive interface built with a mobile-first approach ensures a seamless experience on any device.
 
 -----
 
 ## 🛠 Technology Stack
 
-This demo is built with a clean and efficient stack, showcasing a robust separation of concerns between the frontend and backend.
+This project is built with a modern, high-performance Python stack, emphasizing scalability, type safety, and best practices in API development.
 
-| Area      | Technology          | Purpose                                                                          |
+| Area      | Technology          | Purpose                                                       \_                      |
 | :-------- | :------------------ | :------------------------------------------------------------------------------- |
-| **Backend** | 🐍 **Python 3.10+** | Core application logic and server management.                                    |
-|           | 🌐 **Flask** | A lightweight web framework for routing, requests, and serving the application.    |
-|           | 🧵 **Threading** | Manages background tasks for memory and summary generation without blocking the UI.  |
-| **Frontend**| ✨ **JavaScript (ES6+)** | Handles all client-side logic, interactivity, and API communication.               |
-|           | 🎨 **HTML5 & CSS3** | Structures the application and provides a modern, responsive design.               |
-| **Database**| 🗄 **SQLite** | A self-contained, serverless database for storing conversations and user memory.   |
+| **Backend** | 🐍 **Python 3.10+** | Core application logic and asynchronous request handling.                        |
+|           | 🚀 **FastAPI** | A high-performance web framework for building robust, type-safe APIs with automatic OpenAPI documentation.   |
+|           | 🐘 **SQLAlchemy** | Provides a powerful Object-Relational Mapper (ORM) for elegant database interactions.      |
+|           | 🅿️ **Pydantic** | Enforces strict data validation for all API requests and responses.           \_              |
+|           | 🌀 **Uvicorn** | A lightning-fast ASGI server for running the FastAPI application.                    |
+| **AI Services** | 🧠 **OpenAI GPT-4o** | The core model for generating the Brand Psychology Report and powering the chat persona. |
+|           | 🎨 **OpenAI DALL-E 3** | The model used for generating high-quality, context-aware logos.                |
+|           | 🗣️ **OpenAI TTS-1-HD** | Generates high-fidelity, natural-sounding audio for the persona's responses.      |
+| **Frontend**| ✨ **JavaScript (ES6+)** | Handles all client-side logic, dynamic rendering, and asynchronous API communication.   |
+|           | 🎨 **HTML5 & CSS3** | Structures the application and provides a modern, responsive, and animated design. |
+| **Database**| 🗄 **SQLite** | A self-contained, serverless database for storing brand generation history. Easily swappable for PostgreSQL in production. |
 
 -----
 
-## ⚙️ How It Works
+## ⚙️ Architecture & Data Flow
 
-The AIONEX demo architecture is designed for real-time, multi-layered processing:
+The application follows a clean, decoupled architecture:
 
-1.  **UI Interaction:** The user selects a persona or sends a message from the frontend, which is built with vanilla JavaScript, HTML, and CSS.
-2.  **API Request:** The frontend sends a request to the appropriate endpoint on the **Flask backend server**.
-3.  **Backend Processing:**
-    * The user's message is saved to the **SQLite database**.
-    * For the `/chat` endpoint, a **simulated AI response** is generated. This response is then **streamed** back to the client token-by-token to realistically mimic a live AI typing.
-4.  **Real-Time Rendering:** The JavaScript frontend receives the stream and dynamically renders the response word-by-word, updating the DOM.
-5.  **Background Tasks:** After a conversation, new **threads** are initiated to run placeholder functions for memory extraction and shared memory creation, demonstrating the architecture for these features without exposing the core AI logic.
-
-> **Key Demo Feature:** This project is **fully self-contained** and runs locally without requiring any external API keys.
+1.   **User Input:** A user submits a brand description via the frontend.
+2.   **API Request & Validation:** The request hits a FastAPI endpoint. **Pydantic** automatically validates the incoming data for correctness.
+3.   **GPT-4o Analysis:** The backend constructs a detailed, structured JSON prompt and sends it to the **GPT-4o** API. This generates the core Brand Psychology Report.
+4.   **DALL-E 3 Logo Generation:** The `logo_concept_description` from the GPT-4o response is used to create a new, highly specific prompt for the **DALL-E 3** API, which returns a unique logo URL.
+5.   **Database Persistence:** The complete brand report (JSON) and the logo URL are saved to the SQLite database as a new history item using **SQLAlchemy**.
+6.   **Response to Client:** The backend sends the complete brand data (report and logo URL) back to the frontend.
+7.   **Dynamic Rendering:** The frontend JavaScript parses the JSON and dynamically builds the entire results page, including the report, logo, font previews, and the interactive chat window.
 
 -----
 
-## 🏁 Quickstart Guide
+## ⚠️ Demo Version Notice
 
-Follow these steps to run the project locally.
+This repository represents a **demo version** of PsyDesign AI.
 
-### 1. Prerequisites
-* **Python 3.10** or newer
-* **Git**
+  * All OpenAI API calls are replaced with **mock data** for demonstration purposes.
+  * The production API key and some internal optimization scripts are intentionally removed for security.
+  * Full source code and proprietary models are available under a separate **purchase agreement**.
 
-### 2. Clone the Repository
+For inquiries regarding the full version or IP transfer, please contact:
+📧 **[artinghorbanianainex@gmail.com](mailto:artinghorbanianainex@gmail.com)**
+
+-----
+
+## 🏁 Project Setup Guide
+
+Follow these steps to run the full project locally.
+
+### 1\. Prerequisites
+
+  * **Python 3.10** or newer
+  * **Git**
+  * An **OpenAI API Key** (if you wish to enable live API calls).
+
+### 2\. Clone the Repository
+
 ```bash
-git clone [https://github.com/ArtinGhorbanian/AIONEX.git](https://github.com/ArtinGhorbanian/AIONEX.git)
-cd AIONEX
-````
+git clone [https://github.com/YourUsername/PsyDesign-AI.git](https://github.com/YourUsername/PsyDesign-AI.git)
+cd PsyDesign-AI
+```
 
 ### 3\. (Recommended) Create a Virtual Environment
 
-**On macOS / Linux:**
-
 ```bash
+# On macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
-```
 
-**On Windows:**
-
-```bash
+# On Windows
 python -m venv venv
 .\venv\Scripts\activate
 ```
 
 ### 4\. Install Dependencies
 
-This demo has only one dependency.
+Create a file named `requirements.txt` in the project root with the following content:
 
-```bash
-pip install Flask
+```txt
+fastapi
+uvicorn[standard]
+sqlalchemy
+openai
+httpx
+jinja2
 ```
 
-### 5\. Run the Application
+Then, run the installation command:
 
 ```bash
-python app.py
+pip install -r requirements.txt
 ```
 
-Your terminal will show a clean startup message, and the server will be active.
+### 5\. Configure API Key
 
-### 6\. Open the App
+  * This demo version **does not contain an API key** for security reasons. The app will run using local mock data.
+  * All API endpoints in `app.py` are ready and can be activated by adding your own OpenAI API key.
 
-Navigate to **http://127.0.0.1:5000** in your web browser to launch AIONEX\! 🚀
+To enable live generation, open the `app.py` file and replace the placeholder (around **line 20**) with your OpenAI API key:
 
------
+```python
+# In app.py
+API_KEY = "YOUR_OPENAI_API_KEY" 
+```
 
-## 🔑 Accessing the Full Production System
+> **Security Note:** For production, it is strongly recommended to load the API key from an environment variable or a secrets management service instead of hardcoding it.
 
-This public demo effectively showcases the user interface, application flow, and frontend architecture. The core intellectual property—including the fine-tuned AI models, advanced memory extraction algorithms, and scalable backend infrastructure—resides in a private repository.
+### 6\. Run the Application
 
-We invite **VPs of Engineering, Lead AI Researchers, and Technical Hiring Managers** interested in a technical deep-dive, code review, or potential collaboration to request access.
+```bash
+uvicorn app:app --reload
+```
 
-A structured process is in place to ensure confidentiality:
+The server will start, and you can access the application.
 
-1.  **Initial Inquiry:** Please send an inquiry to the email below from your **official corporate email address**. Inquiries from personal email domains will not be considered.
-2.  **Verification & NDA:** Following a brief verification step, a standard Non-Disclosure Agreement (NDA) will be provided for review and signature.
-3.  **Granting Access:** Upon execution of the NDA, access will be granted to the private source code repository and documentation for a limited time.
+### 7\. Open the App
 
-**Contact for Access:**
-`artinghorbanianaionex@gmail.com`
-
------
-
-## 🛡️ Integrity & Proof of Ownership
-
-To guarantee authenticity and protect the intellectual property of the full system, we use digital signatures and hashing. All critical commits in the private repository are signed with **GPG**.
-
-The **SHA256 hash** of the primary production model file (which is proprietary and not included here) is listed below as a digital fingerprint for ownership verification.
-
-  * **Model:** `aionex_prod_model_v1.2.bin`
-  * **SHA256 Hash:** `3b5d2419c3c1b7c1d4b0d829e5a1b3a4d6c7b8c9a0a1f2e3d4c5b6a7b8c9d0e1` (File not included in this repository)
+Navigate to **[http://127.0.0.1:8000](https://www.google.com/search?q=http://127.0.0.1:8000)** in your web browser to launch PsyDesign AI\! 🚀
 
 -----
 
-## ©️ License & Intellectual Property
+## ©️ License
 
-Copyright (c) 2025 Artin Ghorbanian
-All rights reserved.
+**Copyright (c) 2025 Artin Ghorbanian**
+**All Rights Reserved.**
 
-This demo is provided for evaluation purposes only.
-The production system, including proprietary models, weights, and strategy logic, is available for review only under a Non-Disclosure Agreement (NDA).
+This project and its source code are proprietary and confidential. Unauthorized copying, distribution, or use of this software, via any medium, is strictly prohibited.
