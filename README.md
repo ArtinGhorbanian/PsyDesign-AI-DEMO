@@ -1,9 +1,3 @@
-خواهش می‌کنم. فایل README شما همین الان هم بسیار حرفه‌ای و کامل است. من تغییراتی که درخواست کردید را اعمال می‌کنم تا به طور شفاف مشخص شود که این یک نسخه دمو (Demo) است و بخش‌های مربوط به API Key را به‌روزرسانی می‌کنم.
-
-در اینجا نسخه بهبودیافته و ویرایش‌شده‌ی `README.md` شما آماده است:
-
------
-
 # 🎨 PsyDesign AI — AI-Powered Brand Identity Generator
 
 \<p align="center"\>
@@ -203,3 +197,4 @@ Navigate to **[http://127.0.0.1:8000](https://www.google.com/search?q=http://127
 **All Rights Reserved.**
 
 This project and its source code are proprietary and confidential. Unauthorized copying, distribution, or use of this software, via any medium, is strictly prohibited.
+
